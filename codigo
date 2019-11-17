@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+  printf("Iuri Bordini");
+	int num, fatorial;
+
+	printf("Digite um número natural: ");
+	scanf("%d", &num);
+
+  fatorial = 1;
+
+	for(int i=1; i<=num;i++)
+  {
+    fatorial = i*fatorial;
+  }
+
+	printf("O fatorial de %d é %d", num, fatorial);
+
+
+  return 0;
+}
